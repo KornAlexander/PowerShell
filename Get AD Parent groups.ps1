@@ -1,5 +1,5 @@
 ﻿[bool]$new_groups_added = $TRUE
-$user = "OG_FEG_SAL_COR"  ### <<<<<<< Enter Username Here
+$user = "OG_..."  ### <<<<<<< Enter Username Here
 
 [array]$groups = Get-ADPrincipalGroupMembership $user | foreach {$_.name}
 $groups = $groups | sort
